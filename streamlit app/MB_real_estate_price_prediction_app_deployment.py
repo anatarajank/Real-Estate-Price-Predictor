@@ -9,7 +9,7 @@ import datetime # Import datetime for date handling
 # Make sure to update this path to point to your joblib-saved .pkl file
 # For demonstration in Colab, let's assume it's in the current directory or a specified path
 # In a real Streamlit app, this path needs to be correct relative to where the script is run
-model_path = r'..\\models\\tuned_lightgbm_pipeline_clean.pkl' # Update this if your file path is different
+model_path = 'deployment_26072025.pkl' # Update this if your file path is different
 
 # --- Data/Coordinates needed for backend calculations ---
 # Approximate coordinates for the Melbourne CBD (e.g., near Flinders Street Station)
