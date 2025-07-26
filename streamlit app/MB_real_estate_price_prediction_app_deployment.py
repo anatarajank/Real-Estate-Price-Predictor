@@ -78,7 +78,42 @@ original_cols_order = ['property_type', 'suburb', 'bathrooms', 'bedrooms', 'park
                        'distance_to_nearest_hospital_km', 'sale_year', 'sale_quarter',
                        'bathroom_bedroom_ratio', 'bedroom_bathroom_interaction']
 
+# --- Sidebar Content ---
+st.sidebar.markdown("## Instructions")
+st.sidebar.markdown("""
+Welcome to the Melbourne Housing Price Predictor!
 
+Follow these steps to get a price prediction for a property in Brighton, Northcote, or Richmond:
+
+1.  **Enter Property Details:** Use the input fields on the main page to provide information about the property, including:
+    *   Suburb
+    *   Property Type
+    *   Number of Bedrooms
+    *   Number of Bathrooms
+    *   Latitude and Longitude (approximate location)
+    *   Date Sold (select a date)
+    *   Number of Parking Spaces
+    *   Number of Garages
+2.  **Click 'Predict Price':** Once you have entered all the details, click the "Predict Price" button.
+3.  **View Prediction:** The predicted sale price for the property will be displayed below the button.
+
+You can use the sample data provided below to test the predictor.
+""")
+
+st.sidebar.markdown("## Sample Data and Predictions")
+st.sidebar.markdown("""
+Here are a few sample properties from the test set and the prices predicted by the model:
+
+| Instance ID | Date Sold  | Latitude   | Longitude  | Actual Price | Predicted Price | 
+|-------------|------------|------------|------------|--------------|-----------------|
+| 1281        | 22-11-2023 | -37.818948 | 145.013148 | \$670,000.00 | \$690,299.34    |
+| 1171        | 28-01-2024 | -37.768565 | 144.999392 | \$565,000.00 | \$611,969.14    |
+| 1650        | 05-05-2023 | -37.815269 | 145.008276 | \$690,000.00 | \$594,286.60    |
+
+*Note: The model's prediction may differ from the actual price.*
+""")
+
+# --- Main App Content ---
 # Center the title using markdown and HTML
 st.markdown("<h1 style='text-align: center;'>Melbourne Housing Price Prediction</h1>", unsafe_allow_html=True)
 
