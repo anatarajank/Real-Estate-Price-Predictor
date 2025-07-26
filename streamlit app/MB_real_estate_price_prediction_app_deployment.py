@@ -107,13 +107,40 @@ st.sidebar.markdown("## Sample Data and Predictions")
 st.sidebar.markdown("""
 Here are a few sample properties from the test set and the prices predicted by the model:
 
-| Instance ID | Date Sold  | Latitude   | Longitude  | Actual Price | Predicted Price | 
-|-------------|------------|------------|------------|--------------|-----------------|
-| 1281        | 22-11-2023 | -37.818948 | 145.013148 | \$670,000.00 | \$690,299.34    |
-| 1171        | 28-01-2024 | -37.768565 | 144.999392 | \$565,000.00 | \$611,969.14    |
-| 1650        | 05-05-2023 | -37.815269 | 145.008276 | \$690,000.00 | \$594,286.60    |
+*   **Sample 1:**
+    *   **Suburb:** Richmond
+    *   **Property Type:** apartment
+    *   **Bedrooms:** 2
+    *   **Bathrooms:** 2
+    *   **Parking:** 1
+    *   **Garage:** 1
+    *   **Date Sold:** 2023-11-22
+    *   **Actual Price:** $670,000.00
+    *   **Predicted Price:** $690,299.34
 
-*Note: The model's prediction may differ from the actual price.*
+*   **Sample 2:**
+    *   **Suburb:** Northcote
+    *   **Property Type:** apartment
+    *   **Bedrooms:** 2
+    *   **Bathrooms:** 1
+    *   **Parking:** 1
+    *   **Garage:** 0
+    *   **Date Sold:** 2024-01-28
+    *   **Actual Price:** $565,000.00
+    *   **Predicted Price:** $611,969.14
+
+*   **Sample 3:**
+    *   **Suburb:** Richmond
+    *   **Property Type:** apartment
+    *   **Bedrooms:** 2
+    *   **Bathrooms:** 1
+    *   **Parking:** 1
+    *   **Garage:** 0
+    *   **Date Sold:** 2023-05-05
+    *   **Actual Price:** $690,000.00
+    *   **Predicted Price:** $594,286.60
+
+*Note: The model's prediction may differ significantly from the actual price for individual properties.*
 """)
 
 # --- Main App Content ---
