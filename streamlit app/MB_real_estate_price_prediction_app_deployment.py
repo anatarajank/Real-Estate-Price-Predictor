@@ -10,15 +10,9 @@ import os # Import datetime for date handling
 # Make sure to update this path to point to your joblib-saved .pkl file
 # For demonstration in Colab, let's assume it's in the current directory or a specified path
 # In a real Streamlit app, this path needs to be correct relative to where the script is run
-#model_path = 'streamlit app/deployment_26072025.pkl' # Update this if your file path is different
 script_dir = os.path.dirname(__file__)
 model_filename = 'deployment_26072025.pkl'
 model_path = os.path.join(script_dir, model_filename)
-
-st.write(f"DEBUG: Script directory: {script_dir}")
-st.write(f"DEBUG: Calculated model path: {model_path}")
-st.write(f"DEBUG: Current working directory: {os.getcwd()}")
-st.write(f"DEBUG: Does model file exist at calculated path? {os.path.exists(model_path)}")
 
 # --- Data/Coordinates needed for backend calculations ---
 # Approximate coordinates for the Melbourne CBD (e.g., near Flinders Street Station)
