@@ -112,6 +112,8 @@ Here are a few sample properties from the test set and the prices predicted by t
     *   **Property Type:** apartment
     *   **Bedrooms:** 2
     *   **Bathrooms:** 2
+    *   **Latitude:** -37.818948
+    *   **Longitude:** 145.013148
     *   **Parking:** 1
     *   **Garage:** 1
     *   **Date Sold:** 2023-11-22
@@ -123,6 +125,8 @@ Here are a few sample properties from the test set and the prices predicted by t
     *   **Property Type:** apartment
     *   **Bedrooms:** 2
     *   **Bathrooms:** 1
+    *   **Latitude:** -37.768565
+    *   **Longitude:** 144.999392
     *   **Parking:** 1
     *   **Garage:** 0
     *   **Date Sold:** 2024-01-28
@@ -134,6 +138,8 @@ Here are a few sample properties from the test set and the prices predicted by t
     *   **Property Type:** apartment
     *   **Bedrooms:** 2
     *   **Bathrooms:** 1
+    *   **Latitude:** -37.815269
+    *   **Longitude:** 145.008276
     *   **Parking:** 1
     *   **Garage:** 0
     *   **Date Sold:** 2023-05-05
